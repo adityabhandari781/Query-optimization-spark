@@ -1,4 +1,0 @@
-- used C:\Users\adity\Desktop\code\GitHub\Query-optimization-spark instead of C:/spark_ml_optimizer
-- used github.com/cdarlint/winutils to download hadoop-3.3.5/bin/{winutils.exe,hadoop.dll} and put them in C:\hadoop\bin\
-- used 127.0.0.1 instead of 0.0.0.0
-- `mlflow server --backend-store-uri sqlite:///mlflow/mlflow.db --default-artifact-root mlflow/artifacts --host 127.0.0.1 --port 5000`

@@ -1,0 +1,15 @@
+- install java 11
+- install python 10
+- download spark 3.5 and extract to C:\spark
+- now:
+    - Go to: https://github.com/cdarlint/winutils
+    - Navigate into the hadoop-3.3.5/bin/ folder
+    - Download winutils.exe and hadoop.dll
+    - Place both in C:\hadoop\bin\
+- set env variables:
+    - JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-11...
+    - SPARK_HOME: C:\spark
+    - HADOOP_HOME: C:\hadoop
+    - PYSPARK_PYTHON: python
+- setup a python environment, activate it, and install requirements.txt
+- do `mlflow server --backend-store-uri sqlite:///mlflow/mlflow.db --default-artifact-root mlflow/artifacts --host 127.0.0.1 --port 5000` in a terminal to set up mlflow server
