@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/adity/Desktop/code/GitHub/Query-optimization-spark/mlflow/artifacts/1/models/m-dea404e92b30499e92f82b8b256171ee/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-dea404e92b30499e92f82b8b256171ee
+model_size_bytes: 48282
+model_uuid: m-dea404e92b30499e92f82b8b256171ee
+prompts: null
+run_id: 8f688b7d465b4fcea6e35e5132d2b17c
+utc_time_created: '2026-05-03 03:25:01.618854'

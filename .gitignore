@@ -1,0 +1,6 @@
+.venv/
+.vnv/
+__pycache__/
+*.py[cod]
+data/
+# mlflow/
